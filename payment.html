@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Payment Form</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+body {
+  background-image: url('candylogo.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+label {
+	color: yellow;
+	font-family: 'Zilla Slab', serif;
+	font-size: 12px;
+}
+h1, h2{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 32px;
+	color: yellow;
+}
+
+</style>
+</head>
+<body>
+
+<form>
+<h1>Billing Information</h1>
+<ul>
+	<il>
+		<label>First Name:<input type="text"></label><br><br>
+		<label>Second Name:<input type="text"></label><br><br>
+		<label>Street Adress:<input type="text"></label><br><br>
+		<label>Street Adress(2):<input type="text"></label><br><br>
+		<label>City:<input type="text"></label><br><br>
+		<label>State:<input type="text"></label><br><br>
+		<label>Zip Code:<input type="text"></label><br><br>
+		<label>Country:<input type="text"></label><br><br>
+		<label>Phone:<input type="text"></label><br><br>
+	</il>
+</ul>
+<h2>Credit Card</h2>
+<ul>
+	<il>
+		<input type="radio" id="mastercard" name="card" value="mastercard"><label for="mastercard"><img src="mastercard.png" alt="logo" width="50" height="50"></label>
+		<input type="radio" id="discover" name="card" value="discover"><label for="discover"><img src="discover.png" alt="logo" width="50" height="50"></label>
+		<input type="radio" id="american express" name="card" value="american express"><label for="american express"><img src="american.png" alt="logo" width="50" height="50"></label>
+		<input type="radio" id="visa" name="card" value="visa"><label for="visa"><img src="visa.png" alt="logo" width="50" height="50"></label><br><br>
+		<label>Credit Card Number:<input type="text"></label><br><br>
+		<label>Expiration Date:<input type="text"></label><br><br>
+		<label>CSC:<input type="text"></label><br><br>
+	</il>
+</ul>
+<a href="#" class="next">Next &raquo;</a><br>
+<a href="catalogo.html">Presione aquí para volver al catalogo</a><br>
+<a href="index.html">Pagina principal</a>
+	
+</form>
+</body>
+</html>
